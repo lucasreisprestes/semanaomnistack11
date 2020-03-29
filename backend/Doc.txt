@@ -1,0 +1,13 @@
+Entidades:
+    > ONG
+    > Caso (insident)
+
+FUNCIONALIDADES:
+    > Login de ONG
+    > Cadastro de ONG
+    > Logout de ONG
+    > Cadastrar novos casos
+    > Deletar casos
+    > Listar casos espicíficos de uma ONG
+    > Listar todos os casos
+    > Entrar em contato com a ONG 

@@ -1,0 +1,33 @@
+/**
+ * Rota / Recurso   
+ */
+/** MÉTODOS
+ *  GET: Buscar um informação do back-end
+ *  POST: Criar uma informação do back-end
+ *  PUT: Alterar uma informação do back-end
+ *  DELETE: Excluir um informação do back-end
+ */
+
+ /** TIPOS DE PARÂMETROS
+  * Query Params: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+  *   Ex:  /users?name=Diego&idade=25 (const params = request.query;)
+  * 
+  * Route Params: Parâmetros utilizados para identificar recursos
+  *   Ex:  /users:id  (const params = request.params;)
+  * 
+  * Request Body:  O Corpo da requisição, utilizado para criar ou alterar recursos
+  *   Ex:  app.post('/users'...) (const body = request.body;)
+  *     -> Importante usar no início do código esta chamada
+  *      app.use(express.json()), caso contrário será undefied
+  */
+
+  /** TIPO DE BANCOS DE DADOS 
+   * SQL: Mysql, SQLite, PostgresSQL, Microsoft SQL Server
+   * NoSql: MongoDB, CoucheDB, etc
+   */
+
+   /**
+    * DRIVE: Select * from users
+    * Query Builder: table('users').select('*').where()
+    */
+   
